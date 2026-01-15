@@ -11,7 +11,7 @@ public class Slow {
     }
 
     static long fibRecursive(long i) {
-        if (i < 2) return 1;
+        if (i < 2) return 3;
         return fibRecursive(i-2) + fibRecursive(i -1);
     }
 
